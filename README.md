@@ -14,11 +14,11 @@ The dataset used in this project is an open-source dataset from [AlexTheAnalyst]
 
 ## ❓ Key Questions Answered
 
-1. Which age group purchased the most bikes?
-2. Which area or distance group had the highest number of bike purchases?
-3. Which income group purchased bikes the most?
-4. How many females purchased bikes?
-5. How many males purchased bikes?
+1. Which age group purchased the most bikes?  
+2. Which area or distance group had the highest number of bike purchases?  
+3. Which income group purchased bikes the most?  
+4. How many females purchased bikes?  
+5. How many males purchased bikes?  
 6. Which region had the most bike sales?
 
 > The last three questions are answered using slicers in the dashboard.
@@ -27,8 +27,8 @@ The dataset used in this project is an open-source dataset from [AlexTheAnalyst]
 
 ## 🛠 Tools & Skills Used
 
-* **Microsoft Excel** – Used for data cleaning, pivot tables, charts, and dashboard creation.
-* **Visual Studio Code** – Used to push the project to GitHub.
+* **Microsoft Excel** – Used for data cleaning, pivot tables, charts, and dashboard creation.  
+* **Visual Studio Code** – Used to push the project to GitHub.  
 * **GitHub** – To showcase and share the project publicly.
 
 ---
@@ -46,7 +46,9 @@ The dataset used in this project is an open-source dataset from [AlexTheAnalyst]
 
 📉 Pivot Chart:
 
-![Customer Age Brackets](Pivot%20Charts/Customer_Age_Brackets.png)
+<p align="center">
+  <img src="Pivot%20Charts/Customer_Age_Brackets.png" alt="Customer Age Brackets" width="500"/>
+</p>
 
 ➡️ *Middle-aged customers purchased the most bikes.*
 
@@ -65,7 +67,9 @@ The dataset used in this project is an open-source dataset from [AlexTheAnalyst]
 
 📉 Pivot Chart:
 
-![Customer Commute Distance](Pivot%20Charts/Customer_Commute_Distance.png)
+<p align="center">
+  <img src="Pivot%20Charts/Customer_Commute_Distance.png" alt="Customer Commute Distance" width="500"/>
+</p>
 
 ➡️ *Customers living within 0–1 miles from the company purchased the most bikes.*
 
@@ -82,7 +86,9 @@ The dataset used in this project is an open-source dataset from [AlexTheAnalyst]
 
 📉 Pivot Chart:
 
-![Customer Income Brackets](Pivot%20Charts/Customer_Income_Brackets.png)
+<p align="center">
+  <img src="Pivot%20Charts/Customer_Income_Brackets.png" alt="Customer Income Brackets" width="500"/>
+</p>
 
 ➡️ *Medium-income customers (earning around or above \$70,000) purchased the most bikes.*
 
@@ -102,11 +108,9 @@ These insights are answered through slicers in the Excel dashboard.
 
 This project gave me practical experience in Excel-based data analysis and dashboard creation. I learned:
 
-* Data cleaning (removing duplicates, missing values)
-* Formatting (e.g., converting currency and text values)
-* Creating custom brackets for income and age groups
-* Using pivot tables, charts, and slicers for dynamic dashboards
+* Data cleaning (removing duplicates, missing values)  
+* Formatting (e.g., converting currency and text values)  
+* Creating custom brackets for income and age groups  
+* Using pivot tables, charts, and slicers for dynamic dashboards  
 
 Overall, this project built my confidence in handling real-world data and designing insightful dashboards using Excel.
-
-
