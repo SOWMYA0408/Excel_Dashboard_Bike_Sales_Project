@@ -10,10 +10,15 @@ This data is a open-source data set from [AlexTheAnalyst](/Input_Raw%20Data/Bike
 ### The questions I wanted to answer through my dashboard
 
 1.Which age group purchased the bike the most?
+
 2.Which area group people purchased the bike the most?
+
 3.How much income people they purchased the most?
+
 4.How many female purchased the bike the most?
+
 5.How many male purchased the bike the most?
+
 6.The most purchased region of bike sales?
 # Tools and Skills used
 1.**Excel**-This project is basically to get a handson creating dashboards using Excel , where i did data cleaning , data analysis and created pivot tables and charts to answer the questions and also bike sales dashboard
