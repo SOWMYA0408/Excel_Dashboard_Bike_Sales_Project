@@ -46,7 +46,7 @@ The dataset used in this project is an open-source dataset from [AlexTheAnalyst]
 
 📉 Pivot Chart:
 
-![Customer Age Brackets](Pivot Charts/Customer_Age_Brackets.png)
+![Customer Age Brackets](Pivot%20Charts/Customer_Age_Brackets.png)
 
 ➡️ *Middle-aged customers purchased the most bikes.*
 
@@ -65,7 +65,7 @@ The dataset used in this project is an open-source dataset from [AlexTheAnalyst]
 
 📉 Pivot Chart:
 
-![Customer Commute Distance](Pivot Charts/Customer_Commute_Distance.png)
+![Customer Commute Distance](Pivot%20Charts/Customer_Commute_Distance.png)
 
 ➡️ *Customers living within 0–1 miles from the company purchased the most bikes.*
 
@@ -82,7 +82,7 @@ The dataset used in this project is an open-source dataset from [AlexTheAnalyst]
 
 📉 Pivot Chart:
 
-![Customer Income Brackets](Pivot Charts/Customer_Income_Brackets.png)
+![Customer Income Brackets](Pivot%20Charts/Customer_Income_Brackets.png)
 
 ➡️ *Medium-income customers (earning around or above \$70,000) purchased the most bikes.*
 
