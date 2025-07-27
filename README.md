@@ -83,7 +83,7 @@ The dataset used in this project is an open-source dataset from [AlexTheAnalyst]
 
 📉 Pivot Chart:
 
-!\[Customer Income Brackets]\(Pivot Charts\Customer_Income_Brackets.png)
+![Customer Income Brackets](Pivot Charts/Customer_Income_Brackets.png)
 
 ➡️ *Medium-income customers (earning around or above \$70,000) purchased the most bikes.*
 
