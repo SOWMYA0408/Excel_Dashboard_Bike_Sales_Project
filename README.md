@@ -1,92 +1,113 @@
-# Introduction
-This project is all about the sales of bike . I have analyzed the customers data and build a dashboard
 
-Bike Sales Project ? check them out here [Excel_Dashboard_Bike_Sales_Project](https://github.com/SOWMYA0408/Excel_Dashboard_Bike_Sales_Project)
+# 🚲 Bike Sales Dashboard – Excel Data Analyst Project
 
-# Background
+This project focuses on analyzing bike sales data using Microsoft Excel. I cleaned the data, performed analysis using pivot tables and charts, and built a dashboard to gain insights into customer behavior and purchasing patterns.
 
-This data is a open-source data set from [AlexTheAnalyst](/Input_Raw%20Data/Bike_Sales_Project.xlsx). Inspired by this data set, I have built a dashboard to analyze the bike sales data.
+📌 **Project Repository:** [Excel\_Dashboard\_Bike\_Sales\_Project](https://github.com/SOWMYA0408/Excel_Dashboard_Bike_Sales_Project)
 
-### The questions I wanted to answer through my dashboard
+---
 
-1.Which age group purchased the bike the most?
+## 📚 Background
 
-2.Which area group people purchased the bike the most?
+The dataset used in this project is an open-source dataset from [AlexTheAnalyst](/Input_Raw%20Data/Bike_Sales_Project.xlsx). Inspired by this dataset, I created an interactive dashboard to explore patterns in bike purchases.
 
-3.How much income people they purchased the most?
+---
 
-4.How many female purchased the bike the most?
+## ❓ Key Questions Answered
 
-5.How many male purchased the bike the most?
+1. Which age group purchased the most bikes?
+2. Which area or distance group had the highest number of bike purchases?
+3. Which income group purchased bikes the most?
+4. How many females purchased bikes?
+5. How many males purchased bikes?
+6. Which region had the most bike sales?
 
-6.The most purchased region of bike sales?
-# Tools and Skills used
-1.**Excel**-This project is basically to get a handson creating dashboards using Excel , where i did data cleaning , data analysis and created pivot tables and charts to answer the questions and also bike sales dashboard
+> The last three questions are answered using slicers in the dashboard.
 
-2.**Visual Studio code** - used VS code to push my project to the GitHub repository
+---
 
-3.**GitHub** - Used GitHub to showacase my project to the world
+## 🛠 Tools & Skills Used
 
-# The Analysis
+* **Microsoft Excel** – Used for data cleaning, pivot tables, charts, and dashboard creation.
+* **Visual Studio Code** – Used to push the project to GitHub.
+* **GitHub** – To showcase and share the project publicly.
 
-**1.Which age group purchased the bike the most?**
+---
 
-Middle aged people purchased the bike the most
-| Age Group  | Purchased (Yes) | Total Customers |
-| ---------- | --------------: | --------------: |
-| Adolescent |              39 |              39 |
-| Middle-Age |             383 |             383 |
-| Old        |              59 |              59 |
-| **Total**  |         **481** |         **481** |
+## 📊 Analysis
 
-![Customer_Age_Brackets]
-(Pivot Charts\Customer_Age_Brackets.png)
-*This pivot chart shows the age group of people who purchased the bike the most*
+### 1️⃣ Age Group vs Bike Purchase
 
-**2.Which area group people purchased the bike the most?**
+| Age Group  | Did Not Purchase | Purchased | Total Customers |
+| ---------- | ---------------- | --------: | --------------: |
+| Adolescent | 71               |        39 |             110 |
+| Middle-Age | 318              |       383 |             701 |
+| Old        | 130              |        59 |             189 |
+| **Total**  | **519**          |   **481** |        **1000** |
 
-The people who were near to the bike company Miles 1-2 away from the company purchased the bike the most.
+📉 Pivot Chart:
 
-![Customer_Commute_Distance]
-(Pivot Charts\Customer_Commute_Distance.png)
-*This pivot chart shows the which area people purchased the bike the most*
+![Customer Age Brackets]("Pivot Charts\Customer_Age_Brackets.png")
 
-| Commute Distance | Purchased (No) | Purchased (Yes) | Total Customers |
-| ---------------- | -------------- | --------------: | --------------: |
-| 0–1 Miles        | 166            |             200 |             366 |
-| 1–2 Miles        | 92             |              77 |             169 |
-| 2–5 Miles        | 67             |              95 |             162 |
-| 5–10 Miles       | 116            |              76 |             192 |
-| 10+ Miles        | 78             |              33 |             111 |
-| **Total**        | **519**        |         **481** |        **1000** |
+➡️ *Middle-aged customers purchased the most bikes.*
+
+---
+
+### 2️⃣ Commute Distance vs Bike Purchase
+
+| Commute Distance | Did Not Purchase | Purchased | Total Customers |
+| ---------------- | ---------------- | --------: | --------------: |
+| 0–1 Miles        | 166              |       200 |             366 |
+| 1–2 Miles        | 92               |        77 |             169 |
+| 2–5 Miles        | 67               |        95 |             162 |
+| 5–10 Miles       | 116              |        76 |             192 |
+| 10+ Miles        | 78               |        33 |             111 |
+| **Total**        | **519**          |   **481** |        **1000** |
+
+📉 Pivot Chart:
+
+!\[Customer Commute Distance]\(Pivot Charts\Customer_Commute_Distance.png)
+
+➡️ *Customers living within 0–1 miles from the company purchased the most bikes.*
+
+---
+
+### 3️⃣ Income Level vs Bike Purchase
+
+| Income Bracket | Did Not Purchase | Purchased | Total Customers |
+| -------------- | ---------------- | --------: | --------------: |
+| Low Income     | 169              |       113 |             282 |
+| Medium Income  | 168              |       191 |             359 |
+| High Income    | 182              |       177 |             359 |
+| **Total**      | **519**          |   **481** |        **1000** |
+
+📉 Pivot Chart:
+
+!\[Customer Income Brackets]\(Pivot Charts\Customer_Income_Brackets.png)
+
+➡️ *Medium-income customers (earning around or above \$70,000) purchased the most bikes.*
+
+---
+
+### 4️⃣-6️⃣ Gender & Region Insights
+
+These insights are answered through slicers in the Excel dashboard.
+
+📊 Dashboard Snapshot:
+
+![Bike Sales Dashboard](Dashboard/Bike_Sales_Dashboard.png)
+
+---
+
+## ✅ Conclusion
+
+This project gave me practical experience in Excel-based data analysis and dashboard creation. I learned:
+
+* Data cleaning (removing duplicates, missing values)
+* Formatting (e.g., converting currency and text values)
+* Creating custom brackets for income and age groups
+* Using pivot tables, charts, and slicers for dynamic dashboards
+
+Overall, this project built my confidence in handling real-world data and designing insightful dashboards using Excel.
 
 
-
-
-**3.How much income people they purchased the most?**
-
-The people who purchased the bike the most had the medium income which sets the limit >=$700000
-| Income Bracket | Purchased (No) | Purchased (Yes) | Total Customers |
-| -------------- | -------------- | --------------: | --------------: |
-| Low Income     | 169            |             113 |             282 |
-| Medium Income  | 168            |             191 |             359 |
-| High Income    | 182            |             177 |             359 |
-| **Total**      | **519**        |         **481** |        **1000** |
-
-
-![Customer_Income_Brackets]
-(Pivot Charts\Customer_Income_Brackets.png)
-*This pivot chart shows the income of people who purchased the bike the most*
-
-4.How many female purchased the bike the most?
-
-5.How many male purchased the bike the most?
-
-6.The most purchased region of bike sales?
-
-Questions 4,5 and 6 are answered by the dashboard through my slicers
-![Bike_Sales_Dashboard](Dashboard\Bike_Sales_Dashboard.png)
-*This dashboard shows the answers for my above mention questions*
-
-# Conclusion
-In this project I have got an experience to create a dashboard that can be used to get the answers to the questions asked by the customers.I have learned data cleaning , removing duplicates and missing values, creating pivot tables, creating charts and slicers.Formatting cells from dollar currency to clean the data and replacing the values for single letter values to their respective words.learned to create brackets for the income and age group.This project given me a confident to create dashboards and it is a great experience to learn data analytics.
