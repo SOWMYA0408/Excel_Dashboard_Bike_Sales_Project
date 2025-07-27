@@ -1,4 +1,3 @@
-
 # 🚲 Bike Sales Dashboard – Excel Data Analyst Project
 
 This project focuses on analyzing bike sales data using Microsoft Excel. I cleaned the data, performed analysis using pivot tables and charts, and built a dashboard to gain insights into customer behavior and purchasing patterns.
@@ -47,7 +46,7 @@ The dataset used in this project is an open-source dataset from [AlexTheAnalyst]
 
 📉 Pivot Chart:
 
-![Customer Age Brackets]("Pivot Charts\Customer_Age_Brackets.png")
+![Customer Age Brackets](Pivot Charts/Customer_Age_Brackets.png)
 
 ➡️ *Middle-aged customers purchased the most bikes.*
 
@@ -66,7 +65,7 @@ The dataset used in this project is an open-source dataset from [AlexTheAnalyst]
 
 📉 Pivot Chart:
 
-!\[Customer Commute Distance]\(Pivot Charts\Customer_Commute_Distance.png)
+![Customer Commute Distance](Pivot Charts/Customer_Commute_Distance.png)
 
 ➡️ *Customers living within 0–1 miles from the company purchased the most bikes.*
 
